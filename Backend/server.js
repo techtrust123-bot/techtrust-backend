@@ -9,7 +9,7 @@ const router = require("./Routes/authRoute.js")
 
 
 dbConnection()
-const URLs = ['http://localhost:5173',"https://fudmatechteam1.github.io/techtrust-frontend"]
+const URLs = ['https://techtrust-backend.onrender.com']
 app.use(cookieParser()) 
 app.use(express.json())
 app.use(cors({
